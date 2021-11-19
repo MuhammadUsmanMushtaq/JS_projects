@@ -40,3 +40,6 @@ button {
 #reset-btn {
   background: rgb(43, 30, 235);
 }
+.previous-entry {
+  padding: 16px;
+}

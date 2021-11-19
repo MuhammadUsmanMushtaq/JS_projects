@@ -1,20 +1,19 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <h1>People entered:</h1>
-    <h2 id="count-el">0</h2>
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <button id="save-btn" onclick="save()">SAVE</button>
-    <div>
-        <span>Previous entires:</span><span id="save-el"></span>
+    <h1>BlackJack</h1>
+    <p class="message-el">Want to play a round?</p>
+    <p class="cards-el">Cards:</p>
+    <p class="sum-el">Sum:</p>
+    <div class="btn-body">
+        <button onclick="startGame()">START GAME</button>
+        <button onclick="newCard()">NEW CARD</button>
     </div>
-    <button id="reset-btn" onclick="reset()">RESET COUNTER</button>
-
-
+   
     <script src="index.js"></script>
 </body>
 
