@@ -27,3 +27,6 @@ green color -> #5f9341
   border: none;
   font-weight: bold;
 }
+li {
+  list-style: decimal;
+}
