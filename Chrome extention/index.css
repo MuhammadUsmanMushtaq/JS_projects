@@ -25,10 +25,24 @@ green color -> #5f9341
   background-color: #5f9341;
   color: white;
   padding: 10px 20px;
-  border: none;
+  border: 1px solid #5f9341;
   font-weight: bold;
 }
 
+.tab-btn {
+  background-color: #5f9341;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid #5f9341;
+  font-weight: bold;
+}
+
+.del-btn {
+  border: 1px solid #5f9341;
+  color: #5f9341;
+  background: #fff;
+  padding: 10px 20px;
+}
 .ul-el {
   margin-top: 20px;
   list-style: none;
